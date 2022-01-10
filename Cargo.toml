@@ -5,6 +5,7 @@ authors = [ "Tauri Programme within The Commons Conservancy" ]
 description = ""
 edition = "2021"
 rust-version = "1.56"
+exclude = ["/examples"]
 
 [dependencies]
 tauri = { version = "1.0.0-beta.8" }
